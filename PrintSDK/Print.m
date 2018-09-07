@@ -11,7 +11,7 @@
 @implementation Print
 
 - (void)print {
-    NSLog(@"CocoaPads静态库打印测试");
+    NSLog(@"CocoaPads静态库打印测试%@",[NSDate date]);
 }
 
 @end
